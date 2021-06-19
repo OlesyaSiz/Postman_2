@@ -1,0 +1,110 @@
+{
+	"id": "56b2836e-ca22-4b86-be8d-50ff5d91ca89",
+	"name": "object_info/user_info",
+	"timestamp": "2021-04-27T10:56:06.290Z",
+	"collection_id": "6bbc8db1-0b4a-4411-b404-2ad106be6a71",
+	"folder_id": 0,
+	"environment_id": "5bd31381-9549-4f43-8e2d-d6a60de4d5d5",
+	"totalPass": 7,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "907bca85-4ef1-4aa9-831a-1021c669ae48",
+			"name": "object_info_3",
+			"url": "http://116.203.27.46:5002/object_info_3?age=25&salary=1500&name=Eva",
+			"time": 278,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Schema is valid": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Schema is valid": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				278
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Schema is valid": true
+				}
+			]
+		},
+		{
+			"id": "957add2c-9b37-4ef5-a6d5-d33b14a29d66",
+			"name": "user_info_2",
+			"url": "http://116.203.27.46:5002/user_info_2",
+			"time": 266,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Schema is valid": true,
+				"qa_salary_after_6_months": true,
+				"qa_salary_after_12_months": true,
+				"start_qa_salaryRequest=salaryBody": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Schema is valid": {
+					"pass": 1,
+					"fail": 0
+				},
+				"qa_salary_after_6_months": {
+					"pass": 1,
+					"fail": 0
+				},
+				"qa_salary_after_12_months": {
+					"pass": 1,
+					"fail": 0
+				},
+				"start_qa_salaryRequest=salaryBody": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				266
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Schema is valid": true,
+					"qa_salary_after_6_months": true,
+					"qa_salary_after_12_months": true,
+					"start_qa_salaryRequest=salaryBody": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 544,
+	"collection": {
+		"requests": [
+			{
+				"id": "907bca85-4ef1-4aa9-831a-1021c669ae48",
+				"method": "GET"
+			},
+			{
+				"id": "957add2c-9b37-4ef5-a6d5-d33b14a29d66",
+				"method": "POST"
+			}
+		]
+	}
+}
